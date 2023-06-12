@@ -1,3 +1,45 @@
 body {
     background-color: aqua;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+}
+
+.head {
+    background-color: orange;
+    height: 10vh;
+}
+
+.main {
+    background-color: green;
+    height: 75vh;
+    display: flex;
+}
+
+.footer {
+    background-color: yellow;
+    height: 15vh;
+    display: flex;
+}
+
+#main-izq {
+    background-color: coral;
+    width: 20vw;
+}
+
+#main-der {
+    background-color: rgb(58, 248, 61);
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    background-color: blueviolet;
+    width: 20vw;
 }
