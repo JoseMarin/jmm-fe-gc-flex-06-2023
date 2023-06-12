@@ -43,3 +43,7 @@ body {
     background-color: blueviolet;
     width: 20vw;
 }
+
+.material-symbols-outlined {
+    color: red;
+}
